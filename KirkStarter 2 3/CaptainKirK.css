@@ -1,0 +1,80 @@
+/* Captain Kirk Stylesheet */
+
+body 
+{
+	font-family: verdana, arial, sans-serif;
+	background-color:lightgrey;
+	color:#fff;
+	width: 80%;
+	margin: 5% auto;
+}
+#image
+{
+	text-align:center;
+}
+h1, header
+{
+
+	text-align:center;
+	color:orange;
+	font-size:75px;
+
+
+
+	font-weight: bold;
+
+	text-shadow:
+
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+
+	padding: 1px;
+
+  background: grey;
+
+
+	font-family: Impact, Charcoal, sans-serif
+  font-type: sans serif;
+
+
+
+}
+h4
+{
+	color:darkorange;
+	text-decoration: underline;
+
+
+	padding: 1px;
+	text-shadow:
+
+	-0.3px -0.3px 0 #000,
+	0.3px -0.3px 0 #000,
+	-0.3px 0.3px 0 #000,
+	0.3px 0.3px 0 #000;
+}
+
+p, ul, ol, footer, dt, dd, label {
+	color:black;
+	font-weight:100;
+}
+
+dt
+{
+
+	text-decoration: underline;
+	font-style:italic;
+}
+
+.whoami{
+	font-style:italic;
+	font-weight: bold;
+}
+
+footer{
+	font-style:italic;
+	font-size:10px;
+
+}

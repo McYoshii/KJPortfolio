@@ -1,0 +1,66 @@
+/*
+    color scheme:
+		dark red #84061d
+        pale red #F9F1F1
+				- you should know codes for black and white
+*/
+
+  table, th, td, tbody {
+  border: 1px solid black;
+  text-align: center;
+  align:center;
+}
+
+img {
+  image-orientation: center;
+}
+
+body {
+border: 40px solid darkred;
+background-color: #F9F1F1;
+}
+
+a{
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+
+}
+
+h1, h2, h3{
+  color: darkred;
+  font-family: Lucida Sans;
+  font-style:italic;
+}
+
+tbody{
+  align: center;
+  background-color: darkred;
+  color:white;
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+p{
+  font-family: Tahoma;
+}
+
+.links, header{
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+footer{
+  text-align: center;
+}
+
+hr{
+  color: darkred;
+}

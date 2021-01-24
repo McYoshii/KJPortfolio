@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title> FreePizzaClub</title>
+<meta charset = "utf-8">
+<link href="CF.css" rel="stylesheet">
+
+<header>
+  <img src='free pizza.png' height='100px' width='200' class='fpc'>
+</header>
+<article>
+  <br><br><br><br><br><br><br>
+  <h1>CONGRATGULATIONS!</h1>
+  <h2> you are on your way to winning a free pizza!</h2>
+
+  <h4>(yes, REALLY!)</h4>
+  <br><br><br><br>
+</article>
+
+
+<body id ='body1'>
+
+<h3>To claim your prize, please fill out the following information:</h3>
+<br>
+
+<h3>Personal Information:</h3>
+  <form method="post" action="mailto:hi@me.ca?subject=Contact_Form" enctype="text/plain">
+    <p>
+      <label>Full name:
+        <input type='text' name='name' required>
+      </label>
+    </p>
+
+
+    <p>
+      <label>Email address:
+        <input type='email' name='email' required>
+      </label>
+    </p>
+
+
+    <p>
+      <label>Street Address:
+        <input type="text" name='address' maxlength="500" required>
+      </label>
+</p>
+<p>
+      <label>City:
+        <input type="text" name='address' maxlength="500" required>
+      </label>
+    </p>
+
+    <p>
+      <label for="Province">Province:</label>
+
+<select name="province" id="province">
+  <option value="NB">NB</option>
+  <option value="NL">NL</option>
+  <option value="NS">NS</option>
+  <option value="PE">PE</option>
+  <option value="QC">QC</option>
+  <option value="ON">ON</option>
+  <option value="MB">MB</option>
+  <option value="SK">SK</option>
+  <option value="Alta.">Alta.</option>
+  <option value="BC">BC</option>
+
+</select>
+
+
+
+<br>
+<br>
+<hr>
+
+
+<p>
+<h3>Pizza Information</h3>
+<b>Pizza size:</b><br>
+<input type='radio' name='size' id='sizesmall' value='small'>Small
+<input type='radio' name='size' id='sizemedium' value='medium'>Medium
+<input type='radio' name='size' id='sizelarge' value='large'>Large
+<input type='radio' name='size' id='sizexl' value='xl'>X-Large
+    </p>
+
+    <p>
+      <br>
+      <br>
+      <b>Select toppings:</b> <br>
+      <input type='checkbox' name='onion' id='onion' value='yes'>Onion
+      <input type='checkbox' name='tomato' id='tomato' value='yes'>Tomato
+      <input type='checkbox' name='Pineapple' id='Pineapple' value='yes'>Pineapple<br>
+      <input type='checkbox' name='Pepperoni' id='Pepperoni' value='yes'>Pepperoni
+      <input type='checkbox' name='Green Peppers' id='Green Peppers' value='yes'>Green Peppers
+      <input type='checkbox' name='X-tra Cheese' id='X-tra Cheese' value='yes'>X-tra Cheese<br>
+      <input type='checkbox' name='X-tra Sauce' id='X-tra Sauce' value='yes'>X-tra Sauce
+      <input type='checkbox' name='Ham' id='Ham' value='yes'>Ham
+      <input type='checkbox' name='Bacon' id='Bacon' value='yes'>Bacon<br>
+      <input type='checkbox' name='Donair Sauce' id='Donair Sauce' value='yes'>Donair Sauce
+      <input type='checkbox' name='Beef' id='Beef' value='yes'>Beef
+
+    </p>
+    <br>
+
+    <p>
+      <label><b>Additional Instructions:</b>
+        <br>
+        <textarea  name='instructions' maxlength="500" colspan='200' ></textarea>
+      </label>
+
+
+
+
+
+
+</p>
+    <p><a href="CF2.html"><button>Submit Form</button></a></p>
+    <input type='reset'>
+
+  </form>
+<br>
+<br>
+</body>
+<footer>
+  FreePizzaClub 2020, all rights reserved
+</footer>
+
+</html>
